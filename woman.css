@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  min-height: 100vh;
+
+  
+}
+
+header {
+  padding: 0px;
+  margin: 10px;
+ /* margin-top: 50px; */
+  position: fixed;
+  width: 100%;
+  /* background: slateblue; */
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  float: left;
+  max-width: 100%;
+  width: 70px;
+  height: auto;
+  border-radius: 55px;
+ background-image:slateblue;
+}
+.nav-right {
+ display: grid;
+ grid-template-columns: 50% 50%;
+ column-gap: 20px;
+}
+.nav-right input {
+  position: relative;
+  padding: 20px 55px;
+  color: #1d3557;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: capitalize;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #ff5a5a;
+  transition: all 0.42s;
+}
+.right-icon {
+  margin-left: -450px;
+  margin-top: 20px;
+}
+.right-icon i {
+  position: relative;
+  right: 32px;
+  top: 1px;
+  color: #ff5a5a;
+  font-size: 20px;
+}
+
+.nav1 {
+  float: right;
+  margin-top: -45px;
+}
+.nav a {
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 10px;
+  transition: 0.5s;
+}
+.nav a:hover {
+  color: #fd1d1d;
+}
+.nav a span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid blue;
+  border-radius: 15px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.nav a:hover span {
+  opacity: 1;
+}
+.nav-icon {
+  margin-left: 700px;
+  /* padding-left: 80px; */
+  margin-top: -45px; 
+  float: right;
+  display: inline;
+}
+.nav-icon a {
+  position: relative;
+  font-size: 15px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  color: #fff;
+  text-decoration: none;
+  padding: 2px 10px;
+  transition: 0.5s;
+}
+
+.nav-icon a:hover {
+  color: #fd1d1d;
+}
+.nav-icon a i {
+  padding: 10px;
+  font-size: 30px;
+}
+
+
+/* begin */
+.mid {
+    /* width: 100%;
+    height: 50vh;
+    background: linear-gradient(to right, #c1e8ff ),#7da0ca ,#5483b3  ,#052659 ,#021024 );
+    background: linear-gradient(
+      to right,
+      #007542,
+      #1e8c45,
+      #3aa346,
+      #58bb43,
+      #78d23d,
+      #9be931,
+      #c1ff1c
+    ); */
+    padding-top: 70px;
+    /* margin: 10px; */
+    width: 100%;
+    height: 50vh;
+    animation: example 10s linear infinite;
+    place-items: center;
+  }
+  @keyframes example {
+    0%   {background-color: #340815;}
+    20%  {background-color: #5e0813;}
+    40%  {background-color: #f66159;} 
+    60% {background-color: #6f2f48;}
+    /* 80% {background-color: #512d49;} */
+    100% {background-color: #fdb741;} 
+  
+    /* 0%   {background-color: #78d23d;}
+    20%  {background-color: #1e8c45;}
+    40%  {background-color: #58bb43;}
+    60% {background-color: #c1ff1c;}
+    80% {background-color:  #3aa346;}
+    100% {background-color:   #3aa346;} */
+  }
+  .midrap {
+    width: 80%;
+    
+  }
+  .container {
+    width: 100%;
+    height: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 25px;
+    /* padding-top: 10px; */
+    /* margin-left: -30px; */
+  }
+  .container a {
+    text-decoration: none;
+  }
+  /* .bestseller {
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:#fff;
+    margin-left: 190px;
+    
+  } */
+  .box {
+    width: 30vb;
+    height: 30vh;
+    /* border: 2px solid #451952; */
+    border-radius: 120px;
+    background-color: rgba(70, 28, 53, 0);
+  }
+  .box h1 {
+    /* padding: -50px; */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    display: block;
+    font-size: 20px;
+    color: #ffff;
+  }
+  .box img {
+    width: 100%;
+    height: 180px;
+    border-radius: 100px;
+    transition:  all .42s;
+  }
+  .box img:hover {
+    transform: scale(1.1);
+  }
+  .box h1 a {
+    color: white;
+  }
+  
+/* ban1 */
+.ban1{
+  padding: 0px;
+  margin: 0px;
+  /* padding-top: 70px; */
+  width: auto;
+  height: auto;
+}
+.banrap1{
+  /* width: 82%; */
+  height: 30vh;
+}
+.banrap1 img{
+  width: 100%;
+  height: 30vh;
+}
+
+/* product section */
+.pro-center {
+  text-align: center;
+  color: #fff;
+  width:100%;
+  align-items: center;
+}
+.pro-center h1 {
+  
+  font-size: 65px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 70px;
+  color: transparent;
+  -webkit-text-stroke: 1px maroon;
+  /* background:url(images/back.jpg); */
+  /* -webkit-background-clip: text; */
+  /* background-position: 0 0; */
+  animation: back 20s liner infinite;
+  border-radius: 40px;
+
+}
+@keyframes back{
+  100%{
+      background-position: 2000px 0;
+  }
+}
+
+/* .product{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+} */
+.main-product {
+  padding: 20px;
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+.row {
+  width: auto;
+  height: auto;
+  position:relative;
+  transition: all.42s;
+  cursor: pointer;
+}
+.row img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  /* background:rgba(255, 2, 238, 0.6); */
+  /* border: 2px solid red; */
+  padding: 15px 20px 120px;
+  border-radius: 40px ;
+}
+.container {
+  position: relative;
+  width: 90%;
+  height: auto;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 100%;
+  height: 100vh;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #008CBA; */
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.top-text {
+  position: absolute;
+  top: 10%;
+  left: 12%;
+}
+.top-text h5 {
+  display: inline-block;
+  background: #ff5a5a;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.bottom-text {
+  position: absolute;
+  bottom: 10%;
+  left: 9%;
+}
+.bottom-text {
+  /* color: #fff; */
+  color:slateblue;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.bottom-text h5 {
+  color:slateblue;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.bottom-text h5 span{
+  padding: 10px;
+  text-decoration: line-through;
+  color:black;
+}
+
+.right-icon1 i {
+  color: #fff;
+  font-size: 30px;
+  background: red;
+  width: 55px;
+  height: 55px;
+  justify-content: center;
+  display: inline;
+  align-items: center;
+  border: 8px solid red;
+  border-radius: 50px;
+  transition: all.42s;
+}
+.right-icon1 {
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+}
+
+.hover-icon {
+  position: absolute;
+  top: 12%;
+  right: 12%;
+}
+.row .hover-icon i {
+  display: block;
+  margin: 10px;
+  background: red;
+  padding: 12px;
+  color: #fff;
+  border-radius: 30px;
+  transition: all.42s;
+  opacity: 0;
+}
+.row:hover .hover-icon i {
+  opacity: 1;
+}
+.row .hover-icon i:hover {
+  background: #1d3557;
+}
+
+
+/* product section */
+.pro-center {
+  text-align: center;
+  color: #fff;
+  width:90%;
+  align-items: center;
+}
+.pro-center h1 {
+  
+  font-size: 65px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 70px;
+  color: transparent;
+  -webkit-text-stroke: 1px maroon;
+  /* background:url(images/back.jpg); */
+  /* -webkit-background-clip: text; */
+  /* background-position: 0 0; */
+  animation: back 20s liner infinite;
+  border-radius: 40px;
+
+}
+@keyframes back{
+  100%{
+      background-position: 2000px 0;
+  }
+}
+
+
+.main-product {
+  padding: 5px;
+  margin: 5px;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 40px;
+}
+.row {
+  width: 100%;
+  height: auto;
+  position:relative;
+  transition: all.42s;
+  cursor: pointer;
+}
+.row img {
+  max-width: 90%;
+  width: 100%;
+  height: auto;
+  background:transparent;
+  border: 2px solid rgba(238, 7, 7, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(244, 5, 5, 0.927);
+  color: maroon;
+  border-radius: 20px;
+  padding: 15px 20px 120px;
+  border-radius: 20px;
+}
+.top-text {
+  position: absolute;
+  top: 10%;
+  left: 12%;
+}
+.top-text h5 {
+  display: inline-block;
+  background: #ff5a5a;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.bottom-text {
+  position: absolute;
+  bottom: 10%;
+  left: 9%;
+}
+.bottom-text {
+  padding-top: 40px;
+  color: rgba(176, 8, 8, 0.895);
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.bottom-text h5 {
+  color:rgba(24, 21, 178, 0.927);
+  font-size: 18px;
+  margin-top: 10px;
+}
+.bottom-text h5 span{
+  padding: 10px;
+  text-decoration: line-through;
+  color:rgba(96, 90, 90, 0.756);
+}
+
+.right-icon1 i {
+  color: #fff;
+  font-size: 30px;
+  background: red;
+  width: 55px;
+  height: 55px;
+  justify-content: center;
+  display: inline;
+  align-items: center;
+  border: 8px solid red;
+  border-radius: 50px;
+  transition: all.42s;
+}
+.right-icon1 {
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+}
+
+.hover-icon {
+  position: absolute;
+  top: 12%;
+  right: 12%;
+}
+.row .hover-icon i {
+  display: block;
+  margin: 10px;
+  background: red;
+  padding: 12px;
+  color: #fff;
+  border-radius: 30px;
+  transition: all.42s;
+  opacity: 0;
+}
+.row:hover .hover-icon i {
+  opacity: 1;
+}
+.row .hover-icon i:hover {
+  background: #1d3557;
+}

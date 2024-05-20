@@ -1,0 +1,86 @@
+
+
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+  }
+.w3-teal{
+    padding: 5px;
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+    
+}
+.w3-teal button{
+    float: right;
+    font-size: 20px;
+    color: salmon;
+    border: 2px solid red;
+    /* margin-right: -20px; */
+}
+.w3-container{
+    float: right;
+    text-align: right;
+    /* background-color: red; */
+    padding: 10px;
+    margin: 0px;
+}
+.sidebar{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    backdrop-filter: blur(40px);
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+ .button {
+    
+    /* align-items: center; */
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+  }
+.w3-bar-item-w3-large{
+    padding: 5px;
+    border-radius: 5px;
+}
+  .sidebar .list{
+    margin-top: 50px;
+    width: 230px;
+
+  }
+  .list .list-item{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    line-height: 50px;
+  }
+  
+  .list .list-item a{
+    display:grid ;
+    grid-template-columns: 30% 70%;
+    font-size: 18px;
+    color: #fff;
+    
+    text-decoration: none;
+    border-radius: 6px;
+    transition: .5s;
+  }
+  
+  .list .list-item a i{
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    float: right;
+    line-height: 50px;
+    margin-left: 60px;
+  }
+  .list .list-item.active a,
+  .list .list-item a:hover{
+    background:rgba(255, 2, 238, 0.393);
+  }
+  .sidebar.active{
+    width: 260px;
+  }

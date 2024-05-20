@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+</head>
+<body>                                                                                                                                                      
+    <header>
+        <a href="#"class="logo"><img src="images/logo.jpg" alt="" srcset=""></a>
+        <div class="nav-right">
+            <form >
+                <input type="text"placeholder="search">
+            </form>
+            <div class="right-icon">
+                <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="nav1">
+            <div class="nav">
+                <a href="index.html">Home<span></span></a>
+                <a href="about.html">About<span></span></a>
+                <a href="service.html">Services<span></span></a>
+                <a href="contact.html">Contact<span></span></a>
+            </div>
+            <div class="nav-icon">
+                <a href="like.html"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                <a href="admin.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+            </div>
+
+<!-- Page Content -->
+<div class="w3-teal">
+    <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+    <div class="w3-container">
+      <div class="sidebar"  id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item-w3-large">Close &times;</button>
+        <ul class="list">
+            <li class="list-item active">
+                <a href="new-in.html">
+                    
+                    <span class="link name">NEW IN</span>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="designers.html">
+                
+                    <span class="link name">DESIGNERS</span>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+            
+            <li class="list-item">
+                <a href="woman.html">
+                    
+                    <span class="link name">WOMAN</span>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="weddings.html">
+                    
+                    <span class="link name">WEDDINGS</span>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="bestsellers.html">
+                    
+                    <span class="link name">BESTSELLERS</span>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="jewelry.html">
+                    
+                    <span class="link name">JEWELRY</span>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="men.html">
+                    
+                    <span class="link name">MEN</span>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+           
+            <li class="list-item">
+                <a href="kids.html">
+                    
+                    <span class="link name">KIDS</span>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="sale.html"><span class="link name">SALE</span>
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+  </div>
+  
+
+  <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+  
+ </header>
+
+ 
+    <!-- home section -->
+
+   
+  
+    <div id="home">
+        <div class="home1">
+            <div class="scroll-container">
+                <a href="#"><img src="images/home13.jpg" alt=""></a>
+                <a href="#"><img src="images/home10.jpg" alt=""></a>
+                <a href="#"><img src="images/home6.jpg" alt=""></a>
+                <a href="#"><img src="images/home5-1.jpg" alt=""></a>
+                <a href="#"><img src="images/home12.jpg" alt=""></a>
+                <a href="#"><img src="images/home11.jpg" alt=""></a>
+                <a href="#"><img src="images/home1.jpg" alt=""></a>
+                <a href="#"><img src="images/home.jpg" alt=""></a>
+              </div>
+        <div class="home-text">
+            <h4>Hurrry up!</h4>
+            <h1>Let's find your<br>Fashion outfit.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sit. Ipsa est dolor tempora voluptate natus nobis nulla inventore nesciunt reiciendis fugit, voluptatem consectetur? Quas ad aut facilis assumenda a.</p>
+
+            <div class="home-btn">
+                <button class="btn"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>shop now</a></button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+  <!-- The dots/circles
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> -->
+    
+    <!-- middle1 -->
+    <div class="mid">
+        <div class="midrap">
+            <div class="bestseller">
+                <!-- <h2>Best sellers</h2> -->
+            </div>
+                 <div class="container">
+                    <!-- first row -->
+                    <div class="box">
+                        <h1><a href="weddings.html"><img src="images/wedding/p4-1.jpg" alt="" >weddings</a></h1>
+                        
+                    </div>
+                
+                    <div class="box">
+                        <h1><a href="bestsellers.html"><img src="images/bestseller4.jpg" alt="" >Westernwear</a></h1>
+                        
+                    </div>
+                    <div class="box">
+                        <h1><a href="designers.html"><img src="images/bestseller6.jpg" alt="" ></a>Designers</h1>
+                        
+                     </div>
+                    <div class="box">
+                        <h1><a href="jewelry.html"><img src="images/jewlery/j1.jpg" alt="" >jewelry</a></h1>
+                       
+                    </div>
+                    <div class="box">
+                        <h1><a href="kids.html"><img src="images/kids/k1.jpg" alt="" >Kids</a></h1>
+                        
+                    </div>
+                    <div class="box">
+                        <h1><a href="men.html"><img src="images/men/m1.jpg" alt="" ></a>Men</h1>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+     <!-- banner 1 -->
+    <div class="ban111">
+        <a href="#"><img  src="images/ban1.jpg" alt="banner1" srcset=""></a>
+    </div> 
+
+    <!-- product -->
+    <div class="product">
+        <div class="pro-center">
+            <h1>Best Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eligendi! Tempore ipsa incidunt assumenda perspiciatis? Fugit laboriosam illum sunt quae, assumenda velit reiciendis iure, illo similique at, consequuntur recusandae odio.</p>
+        </div>
+
+        <div class="main-product">
+            <div class="row">
+                <img src="images/product/product.jpg" alt="" srcset="">
+                <div class="top-text">
+                    <h5>New</h5>
+                </div>
+                <div class="hover-icon">
+                    <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+                    <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                </div>
+                <div class="bottom-text">
+                    <h4>lorem</h4>
+                    <h5>$650.0</h5>
+                </div>
+                <div class="right-icon1">
+                     <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="images/product/product9.jpg" alt="" srcset="">
+                
+                <div class="hover-icon">
+                    <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+                    <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                </div>
+                <div class="bottom-text">
+                    <h4>lorem</h4>
+                    <h5>$650.0</h5>
+                </div>
+                <div class="right-icon1">
+                     <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="images/product/product3.jpg" alt="" srcset="">
+               
+                <div class="hover-icon">
+                    <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+                    <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                </div>
+                <div class="bottom-text">
+                    <h4>lorem</h4>
+                    <h5>$650.0</h5>
+                </div>
+                <div class="right-icon1">
+                     <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="images/product/product4.jpg" alt="" srcset="">
+                <div class="top-text">
+                    <h5>New</h5>
+                </div>
+                <div class="hover-icon">
+                    <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+                    <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                </div>
+                <div class="bottom-text">
+                    <h4>lorem</h4>
+                    <h5>$650.0</h5>
+                </div>
+                <div class="right-icon1">
+                     <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="images/product/product5.jpg" alt="" srcset="">
+                <div class="top-text">
+                    <h5>New</h5>
+                </div>
+                <div class="hover-icon">
+                    <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+                    <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                </div>
+                <div class="bottom-text">
+                    <h4>lorem</h4>
+                    <h5>$650.0</h5>
+                    
+                </div>
+                <div class="right-icon1">
+                     <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="images/product/product6.jpg" alt="" srcset="">
+                
+                <div class="hover-icon">
+                    <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+                    <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                </div>
+                <div class="bottom-text">
+                    <h4>lorem</h4>
+                    <h5>$650.0</h5>
+                    
+                </div>
+                <div class="right-icon1">
+                     <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- middle2 -->
+    <div class="mid2">
+        <div class="midrap2">
+        <a href="#"><img  width="100%"  src="images/ban/midban1.jpg" alt="middle2" srcset=""></a>
+        </div>
+    </div>
+
+
+
+
+    <!-- section -->
+<div class="section2">
+    <div class="sec1">
+        
+        <div class="sec1rap">
+            <h1>Shop By Categories</h1>
+        
+            <div class="home-btn">
+                <button class="btn"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>shop now</a></button>
+            </div>
+        </div>
+        
+        
+        
+    
+        <div class="wrapper1">
+        <div class="one">
+            <img src="images/one.jpg" alt="" srcset="">
+            <div class="overlay1">Summer</div>
+        </div>
+        <div class="two">
+            <img src="images/bestseller1.jpg" alt="" srcset="">
+            <div class="overlay2">Casual</div>
+        </div>
+        <div class="three">
+            <img src="images/bestseller3.jpg" alt="" srcset="">
+            <div class="overlay3">Kurti</div>
+        </div>
+        <div class="four">
+            <img src="images/home4.jpg" alt="" srcset="">
+            <div class="overlay4">Collegewear</div>
+        </div>
+        <div class="five">
+            <!-- <img src="images/pr2.jpeg" alt="" srcset=""> -->
+            <!-- <div class="overlay"></div> -->
+        </div>
+        <div class="six">
+            <img src="images/bestseller5.jpg" alt="" srcset="">
+            <div class="overlay5">Westernwear</div>
+        </div>
+        </div>
+        <!-- <div class="weapper1">
+            <img src="images/one.jpg" alt="" srcset="">
+            <div class="overlay">My Name is John</div>
+          </div> -->
+    </div>
+</div>
+
+
+<!-- product2 -->
+
+<div class="main-product1">
+<div class="row1">
+    <img src="images/product/product13.jpg" alt="" srcset="">
+    <div class="top-text1">
+        <h5>New</h5>
+    </div>
+    <div class="hover-icon1">
+        <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+        <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+    </div>
+    <div class="bottom-text1">
+        <h4>lorem</h4>
+        <h5>$650.0</h5>
+        <!-- <span>$750.0</span> -->
+    </div>
+    <div class="right-icon2">
+         <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+    </div>
+</div>
+
+<div class="row1">
+    <img src="images/product/product16.jpeg" alt="" srcset="">
+    
+    <div class="hover-icon1">
+        <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+        <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+    </div>
+    <div class="bottom-text1">
+        <h4>lorem</h4>
+        <h5>$650.0</h5>
+    </div>
+    <div class="right-icon2">
+         <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+    </div>
+</div>
+
+<div class="row1">
+    <img src="images/product/product7.jpg" alt="" srcset="">
+   
+    <div class="hover-icon1">
+        <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+        <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+    </div>
+    <div class="bottom-text1">
+        <h4>lorem</h4>
+        <h5>$650.0</h5>
+    </div>
+    <div class="right-icon2">
+         <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+    </div>
+</div>
+
+<div class="row1">
+    <img src="images/product/product8.jpg" alt="" srcset="">
+    <div class="top-text">
+        <h5>New</h5>
+    </div>
+    <div class="hover-icon1">
+        <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+        <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+    </div>
+    <div class="bottom-text1">
+        <h4>lorem</h4>
+        <h5>$650.0</h5>
+    </div>
+    <div class="right-icon2">
+         <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+    </div>
+</div>
+
+<div class="row1">
+    <img src="images/product/product14.jpg" alt="" srcset="">
+    <div class="top-text">
+        <h5>New</h5>
+    </div>
+    <div class="hover-icon1">
+        <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> -->
+        <a href="#"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-exchange" aria-hidden="true"></i></a>
+    </div>
+    <div class="bottom-text1">
+        <h4>lorem</h4>
+        <h5>$650.0</h5>
+    </div>
+    <div class="right-icon2">
+         <a href="like.html"><i class="fa fa-heart" aria-hidden="true" color></i></a> 
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+<!-- middle3 -->
+
+<div class="mid3">
+    <div class="midrap3">
+        <div class="bestseller3">
+            <h2>Best sellers</h2>
+        </div>
+             <div class="container3">
+                <!-- first row -->
+                <div class="box3">
+                    <h1><a href="#"><img src="images/product/product17.jpeg" alt="" >New Launches</a></h1>
+                    
+                </div>
+            
+                <div class="box3">
+                    <h1><a href="#"><img src="images/product/product18.jpg" alt="" >Dresses</a></h1>
+                    
+                </div>
+                <div class="box3">
+                    <h1><a href="#"><img src="images/product/product1.jpg" alt="" >Co-ords</a></h1>
+                    
+                 </div>
+                <div class="box3">
+                    <h1><a href="#"><img src="images/product/product2.jpg" alt="" >Stylish options</a></h1>
+                   
+                </div>
+                <div class="box3">
+                    <h1><a href="#"><img src="images/product/product15.jpg" alt="" >Suits</a></h1>
+                    
+                </div>
+                <div class="box3">
+                    <h1><a href="#"><img src="images/product/product11.jpg" alt="" >Winter wear</a></h1>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- banner2 -->
+<a href="#"><div class="ban2">
+    <img width= "100%" src="images/ban/midban7.jpg" alt="banner2" srcset="">
+</div></a>
+
+<!-- section2 -->
+<div class="section3">
+    <div class="sec2">
+        <div class="sec2rap">
+            <h1>Grand Global Brands</h1>
+            <div class="home-btn1">
+                <button class="btn1"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>shop now</a></button>
+            </div>
+        </div>
+
+
+
+
+<!-- grid pattern -->
+<div class="grid">
+    <div class="gridrap">
+        <img height="720px" width="700px" src="images/grid1.jpg" alt="" srcset="">
+        <!-- <div class="overlayg">Summer</div> -->
+        <div class="g-box">
+            <img height="320px" width="120%" src="images/grid2.jpg" alt="" srcset="">
+            <img height="320px" width="120%" src="images/grid3.jpg" alt="" srcset="">
+            <img height="320px" width="125%" src="images/grid4.jpg" alt="" srcset="">
+            <img height="320px" width="120%" src="images/grid5.jpg" alt="" srcset="">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<!-- last banner -->
+<a href="#"><div class="lastban">
+    <img width= "100%" src="images/floral.jpg" alt="last banner" srcset="">
+</div></a>
+
+
+
+
+<!-- fotter -->
+<div class="foot">
+    <div class="footrap">
+        <div class="container2">
+            <div class="row102">
+                <h1><img src="images/logo.jpg" alt="Logo picturs"></h1>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul> 
+                </div>
+                <div class="footer-col">
+                    <h4>Get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Return</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul> 
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14731.763067324437!2d88.4107888!3d22.618687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e04ae35e289%3A0xee9cde2435530c00!2sInstitute%20Of%20Intellectual%20Information!5e0!3m2!1sen!2sin!4v1713107899892!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
